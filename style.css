@@ -1,6 +1,5 @@
 #ribbon {
     display: flex;
-    background-color: #ceaeae;
     animation: 2.5s infinite alternate ease-out glowheader;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -8,21 +7,20 @@
     min-height: 21.5px;
     max-height:21.5px;
     align-content: flex-start;
-    padding-right: 35px;    
 }
 a, a:hover, a:active, a:visited {
     color: white;
 }
 html, wrapper
 {
-    background-color: hsl(66, 47%, 80%);
+    background-color: hsl(0, 0%, 100%);
     animation: 3S alternate ease-out breathing-color--dark;
 }
 .blacktext {
-    color: #3F2860;
+    color: white;
 }
 b {
-    color: #3F2860;
+    color: white;
 }
 #sigma {
     font-size: 9.1px;
@@ -41,7 +39,7 @@ nav a {
 nav a:hover {
     font-size:20.5px;
     font-size-adjust: 2px;
-    color: #990000;
+    color: yellow;
     transition: all 2s grow ease-out;
 }
  
@@ -50,7 +48,7 @@ h1 {
     line-height: 120%;  
 }
 body {
-    color: #3F2860;
+    color: #000000;
     font-family: Verdana, Arial, sans-serif;
     align-items: center;
     text-align: center;
@@ -127,19 +125,19 @@ glowgreen {
     }
     to
     {
-        background-color: hsl(66, 47%, 80%);
+        background-color: hsl(0, 0%, 100%);
     }
 }
 @keyframes glowheader {
     from {    
-        background-color: #000000;
+        background-color: #461d04;
     } to {
-        background-color: #222222;
+        background-color:#236213;
     }
 }
 /*fade in on site open*/
 h1 {
-    animation: fadeInAnimation ease-out 2.4s;
+    animation: fadeInAnimation ease-out 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
