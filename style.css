@@ -9,12 +9,12 @@
     align-content: flex-start;
 }
 a, a:hover, a:active, a:visited {
-    color: white;
+    color: yellow;
 }
 html, wrapper
 {
     background-color: hsl(0, 0%, 100%);
-    animation: 3S alternate ease-out breathing-color--dark;
+    animation: 5S alternate ease-out breathing-color--dark;
 }
 .blacktext {
     color: white;
@@ -40,7 +40,7 @@ nav a:hover {
     font-size:20.5px;
     font-size-adjust: 2px;
     color: yellow;
-    transition: all 2s grow ease-out;
+    transition: all 5s grow ease-out;
 }
  
 h1 {
@@ -121,7 +121,7 @@ glowgreen {
 @keyframes breathing-color--dark {
     from
     {
-        background-color: hsl(0, 0%, 84%);
+        background-color: hsl(0, 0%, 100%);
     }
     to
     {
@@ -179,7 +179,7 @@ h1 {
     }
 }
 .fadein {
-    animation: fadeWorkAnimation ease-in-out 4s;
+    animation: fadeWorkAnimation ease-in-out 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
